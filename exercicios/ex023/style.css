@@ -9,8 +9,21 @@ table {
     width: 300px;
 }
 
-td {
+td, th {
     border: 1px solid black;
     padding: 10px;
     text-align: center;
+}
+
+col.cnome {
+    background-color: #eb06064d;
+}
+col.csexo {
+    background-color: #aaeb064d;
+}
+col.cidade {
+    background-color: #43eb064d;
+}
+col.cprof {
+    background-color: #0693eb4d;
 }
