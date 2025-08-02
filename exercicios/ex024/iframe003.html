@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe {
+            width: 100%;
+            border: 2px solid black;
+            height: 400px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            border: 2px solid black;
+            padding: 2px;
+        }
+
+        a:hover {
+            color: rgb(243, 240, 240);
+            text-decoration: underline;
+            background-color: black;
+        }
+
+        li {
+            margin: 10px 0;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça ma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quibusdam iure nisi omnis totam beatae sunt nobis natus? Quod reiciendis adipisci placeat aperiam autem officiis minus rem a delectus quam.</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira pagina</a></li>
+        <li><a href="#">Segunda pagina</a></li>
+        <li><a href="#">Terceira pagina</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, commodi ullam deserunt totam pariatur dolore, consequuntur et beatae eligendi ducimus nesciunt voluptatem explicabo excepturi, impedit dolorum consequatur modi. Praesentium, possimus!</p>
+
+    <iframe name="frame" srcdoc="uma das opções acima">
+        <p>infelizmente seu computador nao esta compativel com isso</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ex ipsa aspernatur itaque sapiente vel ab commodi, porro aperiam consequuntur facere aut quae cupiditate asperiores repellendus velit dolores est maiores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolore eaque reiciendis facilis eligendi quidem, harum et eius sed necessitatibus incidunt amet dolorem ut nisi nostrum accusamus quam aliquid quod!</p>
+</body>
+</html>
